@@ -1,0 +1,117 @@
+/* ARCHIVO CSS HUB/SWITCH */
+
+/*                        Cuerpo general                   */
+
+body { font: .9em "Trebuchet MS", Tahoma, Arial, Sans-Serif;
+	   background: #f5aa63 url(imagenes/japan.jpg);
+	   color: rgb(0, 27, 148); }
+	   
+/*                        Texto                          */
+
+p  { margin: 0 0 15px;
+	 line-height: 1.64em; 
+	 text-align: justify;
+	 font-size : 15px; }
+
+p.pie { color : rgb(255, 255, 255); }
+
+a { text-decoration: none; }
+	 a:hover { color: rgb(8, 214, 241); }
+	  
+h1 { font-size: 35px; }
+
+h2 { font-size: 30px;
+	 	margin-bottom : 4px; }
+	 
+h2.posicion { text-align :center; }
+
+/*                   Tablas                    */
+
+table  { border: 2px ridge ;
+		 border-color : #81DAF5 ; } 
+	
+table.centro { text-align :left;
+		border: 2px ridge ;
+		margin: auto; 
+		border-color : #81DAF5 ; } 
+
+td { text-align : left; }
+
+td.alineacion { text-align :center; }
+
+td.color {color: #0f0101 ;
+		  background-color: rgb(139, 221, 248); 
+		  text-align : center; }
+
+.clear { clear: both; }
+
+#container { margin: 20px auto 0; 
+			 width: 979px; }
+
+#logo { float: left;
+		margin: 35px 0 0 20px;
+		height: 89px; 
+		margin-top: 20px; }
+	      	   
+#logo h1 a { color: rgb(220, 228, 179); }
+
+/*               Menús                */	
+
+#menu { clear: left;
+		float: left; 
+		height: 45px; 
+		padding: 0px 10px; 
+		margin: 0 0px 0 0px;
+		border-radius: 17px; 
+		background-color: #ceae1f; 
+		margin-bottom: 12px;
+		font-size :17px; 
+		width: 959px}
+		  
+#menu ul { float: left; 
+	       padding: 4px 35px; }
+	       
+#menu li { display: inline; 
+	       text-transform: uppercase; }
+	       
+#menu li a { float: left;
+		position: relative; 
+		padding: 12px 0 15px 20px;
+		margin: 0 5px 0 0;
+		color: rgb(0, 0, 0); 
+		z-index: 2; }
+		     
+#menu li a span { padding: 12px 20px 15px 0; }
+
+#menu li a:hover, #menu li a:focus { color: #000;
+	background: url(imagenes/bgtab.gif); 
+	border-radius: 12px;}
+	
+/*                Organización contenido                     */
+
+#content-top { clear: both;
+	background: url(imagenes/content-top.gif) no-repeat;
+	height: 26px;
+	margin: 0 !important; 
+	margin: 0 0 0; 
+	position: relative; }
+	
+#content-middle { padding: 0 25px 0px;
+	background: url(imagenes/content-middle.gif) repeat-y;
+	font-size: 12 px; }
+				  
+#content-bottom { clear: both;
+	background: url(imagenes/content-bottom.gif) no-repeat left bottom; 
+	margin-top: -10px; 
+	height: 13px; }	
+
+#footer { padding: 15px; }
+
+ul {list-style-type: circle;}
+
+a img{border:0} 
+
+*{margin:0;padding:0;}:focus,:active {outline:0}
+		  
+
+	
